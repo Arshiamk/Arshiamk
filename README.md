@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/hero-v2.svg" alt="Arshia — Senior Full Stack Engineer, Engineering Lead, SaaS &amp; AI" width="100%">
+  <img src="assets/hero-v3.svg" alt="Arshia — Senior Full Stack Engineer, Engineering Lead, SaaS &amp; AI" width="100%">
 </p>
 
 <p align="center">
