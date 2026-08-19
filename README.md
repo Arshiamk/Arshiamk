@@ -10,13 +10,11 @@
 
 ---
 
-I'm a full stack engineer and engineering lead. I build products end to end —
+I'm a full stack engineer and engineering lead. I build products end to end,
 architecture, delivery, and the unglamorous production details that decide
 whether any of it actually ships.
 
-Right now I work on **safety tooling for healthcare AI**: making sure the
-software sitting between a hospital system and a patient behaves the way it
-should.
+
 
 <br>
 
