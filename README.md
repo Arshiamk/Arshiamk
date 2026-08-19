@@ -31,7 +31,7 @@ pip install healthguard
 ```
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Arshiamk/healthguard/main/docs/healthguard-demo.gif" alt="healthguard redacting PHI, blocking a prompt injection, and catching an unsafe ibuprofen dose" width="880">
+  <img src="https://raw.githubusercontent.com/Arshiamk/healthguard/main/docs/demo.gif" alt="healthguard redacting PHI, blocking a prompt injection, and catching an unsafe ibuprofen dose" width="880">
 </p>
 
 Deterministic rules, not an LLM grading another LLM — so it's inspectable, adds
