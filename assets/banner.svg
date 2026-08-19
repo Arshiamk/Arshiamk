@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-label="Arshia — Senior Full Stack Engineer, Engineering Lead, SaaS and AI">
+  <defs>
+    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#3fb950" stop-opacity="0"/>
+      <stop offset="18%" stop-color="#3fb950" stop-opacity="1"/>
+      <stop offset="82%" stop-color="#58a6ff" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#58a6ff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-60%" width="140%" height="220%">
+      <feGaussianBlur stdDeviation="3.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="260" fill="#0d1117"/>
+  <rect x="0" y="0" width="1200" height="3" fill="url(#fade)"/>
+
+  <!-- ECG trace: drawn once, then held -->
+  <path d="M 0.0,190.0 L 34.0,190.0 L 46.0,176.0 L 58.0,190.0 L 78.0,190.0 L 86.0,202.0 L 96.0,102.0 L 106.0,216.0 L 118.0,190.0 L 150.0,190.0 L 168.0,160.0 L 186.0,190.0 L 240.0,190.0 L 240.0,190.0 L 274.0,190.0 L 286.0,176.0 L 298.0,190.0 L 318.0,190.0 L 326.0,202.0 L 336.0,102.0 L 346.0,216.0 L 358.0,190.0 L 390.0,190.0 L 408.0,160.0 L 426.0,190.0 L 480.0,190.0 L 480.0,190.0 L 514.0,190.0 L 526.0,176.0 L 538.0,190.0 L 558.0,190.0 L 566.0,202.0 L 576.0,102.0 L 586.0,216.0 L 598.0,190.0 L 630.0,190.0 L 648.0,160.0 L 666.0,190.0 L 720.0,190.0 L 720.0,190.0 L 754.0,190.0 L 766.0,176.0 L 778.0,190.0 L 798.0,190.0 L 806.0,202.0 L 816.0,102.0 L 826.0,216.0 L 838.0,190.0 L 870.0,190.0 L 888.0,160.0 L 906.0,190.0 L 960.0,190.0 L 960.0,190.0 L 994.0,190.0 L 1006.0,176.0 L 1018.0,190.0 L 1038.0,190.0 L 1046.0,202.0 L 1056.0,102.0 L 1066.0,216.0 L 1078.0,190.0 L 1110.0,190.0 L 1128.0,160.0 L 1146.0,190.0 L 1200.0,190.0" fill="none" stroke="url(#fade)" stroke-width="2.2"
+        stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)"
+        opacity="0.55" stroke-dasharray="6000" stroke-dashoffset="6000">
+    <animate attributeName="stroke-dashoffset" from="6000" to="0" dur="4.5s"
+             begin="0s" repeatCount="indefinite"/>
+  </path>
+
+  <text x="60" y="108" font-family="Segoe UI, Helvetica, Arial, sans-serif"
+        font-size="62" font-weight="700" fill="#e6edf3" letter-spacing="-1">Arshia</text>
+
+  <text x="62" y="146" font-family="Segoe UI, Helvetica, Arial, sans-serif"
+        font-size="21" fill="#7d8590">Senior Full Stack Engineer  ·  Engineering Lead  ·  SaaS &amp; AI</text>
+
+  <g font-family="Consolas, monospace" font-size="14">
+    <rect x="60"  y="172" width="196" height="30" rx="8" fill="#161b22" stroke="#30363d"/>
+    <text x="76"  y="192" fill="#3fb950">clinical AI safety</text>
+    <rect x="268" y="172" width="214" height="30" rx="8" fill="#161b22" stroke="#30363d"/>
+    <text x="284" y="192" fill="#58a6ff">HL7 / FHIR interop</text>
+    <rect x="494" y="172" width="226" height="30" rx="8" fill="#161b22" stroke="#30363d"/>
+    <text x="510" y="192" fill="#d2a8ff">platform engineering</text>
+  </g>
+</svg>
