@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/hero-v4.svg" alt="Arshia — Senior Full Stack Engineer, Engineering Lead, SaaS &amp; AI" width="100%">
+  <img src="assets/hero-v5.svg" alt="Arshia — Senior Full Stack Engineer, Engineering Lead, SaaS &amp; AI" width="100%">
 </p>
 
 <p align="center">
@@ -14,42 +14,11 @@ I'm a full stack engineer and engineering lead. I build products end to end,
 architecture, delivery, and the unglamorous production details that decide
 whether any of it actually ships.
 
-
-
 <br>
-
-## Start here: healthguard
-
-**[healthguard](https://github.com/Arshiamk/healthguard)** is a Python library
-that makes AI safer to use in healthcare apps.
-
-Hospitals and clinics are starting to put AI chatbots in front of patients. The
-problem is that an AI model can get things badly wrong — and it always sounds
-confident when it does.
-
-**Three things the AI gets wrong, and what healthguard does about each:**
-
-| What the AI does | What healthguard does |
-| --- | --- |
-| Tells a patient to take **4800mg of ibuprofen a day** — the safe over-the-counter limit is 1200mg | Reads the answer before the patient sees it, flags the unsafe dose, and gives the correct limit |
-| Sends the patient's **name, date of birth and NHS number** out to an external AI service | Strips those details out *before* the message ever leaves your system |
-| Gets talked into ignoring your clinical safety rules by someone typing *"ignore your instructions"* | Recognises the attempt and blocks it |
-
-To be clear about which side it sits on: **the AI model is the risk. healthguard
-is the guard rail.** It sits between your app and the AI, checks what goes out
-and what comes back, and records every decision it made.
-
-```bash
-pip install healthguard
-```
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Arshiamk/healthguard/main/docs/demo.gif" alt="healthguard removing patient details, blocking a prompt injection, and catching an unsafe ibuprofen dose" width="880">
 </p>
-
-It works from fixed, readable rules rather than using a second AI to check the
-first one. So you can see exactly why it flagged something, it adds no delay,
-and it costs nothing per use.
 
 <br>
 
